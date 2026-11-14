@@ -1,0 +1,7 @@
+analysis,x,y,n,spearman_rho,p_value
+K9: Retensi non-GT vs perubahan FP,non_gt_retention_pct_B,delta_fp_K9,6,0.8285714285714287,0.04156268221574334
+K11: Retensi non-GT vs perubahan FP,non_gt_retention_pct_D,delta_fp_K11,6,0.6,0.20799999999999985
+K9: Retensi non-GT vs perubahan Dice,non_gt_retention_pct_B,delta_dice_K9,6,-0.5428571428571429,0.26570262390670557
+K11: Retensi non-GT vs perubahan Dice,non_gt_retention_pct_D,delta_dice_K11,6,0.028571428571428574,0.9571545189504373
+K9: Retensi GT vs perubahan Dice,gt_retention_pct_B,delta_dice_K9,6,-0.8285714285714287,0.04156268221574334
+K11: Retensi GT vs perubahan Dice,gt_retention_pct_D,delta_dice_K11,6,0.3714285714285715,0.46847813411078715

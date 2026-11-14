@@ -1,0 +1,13 @@
+kernel,retention_variable,performance_variable,x_column,y_column,n,spearman_rho,p_value,holm_p_value,significant_holm_005
+K9,Retensi GT,Perubahan Dice,gt_retention_pct_B,delta_dice_K9,146,-0.20079145880111923,0.015093794366962843,0.03683175195369953,True
+K9,Retensi GT,Perubahan FP,gt_retention_pct_B,delta_fp_K9,146,0.2504381457728153,0.00229770725635528,0.013786243538131678,True
+K9,Retensi GT,Perubahan FN,gt_retention_pct_B,delta_fn_K9,146,-0.5824539078905133,1.2407495918359954e-14,1.1166746326523959e-13,True
+K9,Retensi non-GT,Perubahan Dice,non_gt_retention_pct_B,delta_dice_K9,150,-0.39044372260356647,7.835247502938188e-07,5.484673252056732e-06,True
+K9,Retensi non-GT,Perubahan FP,non_gt_retention_pct_B,delta_fp_K9,150,0.5556993644161963,1.5688109782962195e-13,1.2550487826369756e-12,True
+K9,Retensi non-GT,Perubahan FN,non_gt_retention_pct_B,delta_fn_K9,150,-0.2150669162710968,0.008217782946000833,0.03287113178400333,True
+K11,Retensi GT,Perubahan Dice,gt_retention_pct_D,delta_dice_K11,145,0.5963666425073108,2.4819257504105473e-15,2.4819257504105472e-14,True
+K11,Retensi GT,Perubahan FP,gt_retention_pct_D,delta_fp_K11,145,0.20747969275145492,0.012277250651233178,0.03683175195369953,True
+K11,Retensi GT,Perubahan FN,gt_retention_pct_D,delta_fn_K11,145,-0.7902765176836133,3.202610592437642e-32,3.522871651681406e-31,True
+K11,Retensi non-GT,Perubahan Dice,non_gt_retention_pct_D,delta_dice_K11,150,-0.1857758142625463,0.02284020098391058,0.03683175195369953,True
+K11,Retensi non-GT,Perubahan FP,non_gt_retention_pct_D,delta_fp_K11,150,0.7990271550342064,1.647580864163485e-34,1.977097036996182e-33,True
+K11,Retensi non-GT,Perubahan FN,non_gt_retention_pct_D,delta_fn_K11,150,-0.23681653616244178,0.0035255894203195465,0.01762794710159773,True

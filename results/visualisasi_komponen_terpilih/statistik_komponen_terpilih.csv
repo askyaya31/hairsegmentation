@@ -1,0 +1,5 @@
+filename,configuration,kernel,low,high,component_id,component_size,gt_pixels,non_gt_pixels,strong_pixels,gt_ratio,status,output_image
+ISIC_0000456.png,D,11,15,40,16,671,631,40,0,0.940387481371088,DIBUANG,ISIC_0000456_D_component_16.png
+ISIC_0009945.png,D,11,15,40,3,308,308,0,0,1.0,DIBUANG,ISIC_0009945_D_component_3.png
+ISIC_0014806.png,B,9,10,30,6,75309,37498,37811,29491,0.4979218951254166,DIPERTAHANKAN,ISIC_0014806_B_component_6.png
+ISIC_0016019.png,B,9,10,30,1,69678,28981,40697,17724,0.4159275524555814,DIPERTAHANKAN,ISIC_0016019_B_component_1.png

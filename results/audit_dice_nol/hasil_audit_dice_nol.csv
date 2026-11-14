@@ -1,0 +1,8 @@
+filename,category,baseline_dice_original,baseline_dice_recomputed,baseline_gt_pixels,baseline_prediction_pixels,baseline_tp,baseline_fp,baseline_fn,hysteresis_dice_original,hysteresis_dice_recomputed,hysteresis_gt_pixels,hysteresis_prediction_pixels,hysteresis_tp,hysteresis_fp,hysteresis_fn,baseline_match,hysteresis_match
+ISIC_0013713.png,NORMAL,0.006635700066357,0.006635700066357001,1400,1614,10,1604,1390,0.0,0.0,1400,1960,0,1960,1400,True,True
+ISIC_0012879.png,SANGAT_SEDIKIT,0.0,0.0,200,5575,0,5575,200,0.0,0.0,200,13408,0,13408,200,True,True
+ISIC_0013320.png,KOSONG,0.0,0.0,0,5984,0,5984,0,0.0,0.0,0,10491,0,10491,0,True,True
+ISIC_0013601.png,SANGAT_SEDIKIT,0.0,0.0,81,2994,0,2994,81,0.0,0.0,81,4463,0,4463,81,True,True
+ISIC_0012089.png,KOSONG,0.0,0.0,0,13846,0,13846,0,0.0,0.0,0,26531,0,26531,0,True,True
+ISIC_0013554.png,KOSONG,0.0,0.0,0,15411,0,15411,0,0.0,0.0,0,20405,0,20405,0,True,True
+ISIC_0012966.png,KOSONG,0.0,0.0,0,3161,0,3161,0,0.0,0.0,0,4190,0,4190,0,True,True

@@ -1,0 +1,2 @@
+n_images,n_bootstrap,random_seed,mean_difference,bootstrap_se,ci_lower,ci_upper,confidence_level
+150,20000,42,0.03618118113482439,0.004679067832901458,0.027004221258544826,0.04526777650843581,0.95

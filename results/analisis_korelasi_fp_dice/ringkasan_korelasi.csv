@@ -1,0 +1,3 @@
+comparison,n,mean_delta_fp,median_delta_fp,mean_delta_dice,median_delta_dice,spearman_r,spearman_p,pearson_r,pearson_p,fp_up_dice_up,fp_up_dice_down,fp_down_dice_up,fp_down_dice_down,unchanged_fp,unchanged_dice
+Kernel 9: Baseline vs Hysteresis,150,6944.44,3550.0,0.04103581722927667,0.0466484154308672,-0.5687363047960678,3.140325863181561e-14,-0.487337094662742,2.5424513176937184e-10,103,40,1,0,0,6
+Kernel 11: Baseline vs Hysteresis,150,60.18666666666667,11.0,0.019290240509434373,0.025058853279232962,-0.20320504794447114,0.012631204622931776,-0.22081389770167106,0.006619871357819539,56,19,51,18,0,6
