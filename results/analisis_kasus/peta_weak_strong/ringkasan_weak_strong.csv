@@ -1,0 +1,6 @@
+image,gt_pixels,weak_pixels,strong_pixels,strong_TP,strong_FP,total_components,retained_components,discarded_components,retained_pixels,retained_TP,retained_FP,retained_GT_pixels,weak_discarded_GT_pixels,below_low_GT_pixels,retained_GT_percent,weak_discarded_GT_percent,below_low_GT_percent,total_classified_GT,classification_valid
+ISIC_0015476,100856,128419,46100,42456,3644,4656,12,4644,113456,78817,34639,78817,302,21737,78.15,0.3,21.55,100856,True
+ISIC_0015418,14917,70649,6647,5808,839,6433,123,6310,35232,9627,25605,9627,102,5188,64.54,0.68,34.78,14917,True
+ISIC_0012879,200,18526,1711,0,1711,1520,46,1474,10317,0,10317,0,0,200,0.0,0.0,100.0,200,True
+ISIC_0013398,6429,7968,1871,35,1836,710,26,684,6124,63,6061,63,502,5864,0.98,7.81,91.21,6429,True
+ISIC_0000250,9160,11496,658,381,277,1001,30,971,4195,1955,2240,1955,1489,5716,21.34,16.26,62.4,9160,True

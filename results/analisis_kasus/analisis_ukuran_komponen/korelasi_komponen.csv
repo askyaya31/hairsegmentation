@@ -1,0 +1,5 @@
+hubungan,jumlah_komponen,spearman_rho,p_value
+area vs precision_percent,8074,-0.10399242039367632,7.374746930676699e-21
+area vs non_gt_pixels,8074,0.8225480888444076,0.0
+strong_pixels vs non_gt_pixels,8074,0.4585047825272973,0.0
+strong_pixels vs precision_percent,8074,0.11366700898734142,1.2432085390167777e-24

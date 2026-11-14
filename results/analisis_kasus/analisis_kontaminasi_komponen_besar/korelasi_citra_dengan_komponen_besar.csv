@@ -1,0 +1,6 @@
+hubungan,n,rho,p_value
+large_contamination_percent vs delta_dice,132,-0.6092774004027385,9.044296766338772e-15
+large_FP vs delta_dice,132,-0.2648344883185501,0.0021494588901618933
+large_FP_share_percent vs delta_dice,132,-0.08778594092151093,0.3168631997834072
+large_area_share_percent vs delta_dice,132,0.13828477212921317,0.11381703819520254
+overall_contamination_percent vs delta_dice,132,-0.5491773766847734,9.205562844172158e-12

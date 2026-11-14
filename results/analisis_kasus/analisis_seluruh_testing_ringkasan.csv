@@ -1,0 +1,4 @@
+komponen,meningkat,menurun,tetap,rata_rata_perubahan,median_perubahan
+TP,117,27,6,1240.04,735.0
+FP,105,45,0,1276.1533333333334,470.0
+FN,27,117,6,-1240.04,-735.0

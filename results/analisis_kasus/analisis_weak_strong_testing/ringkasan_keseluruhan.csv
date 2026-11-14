@@ -1,0 +1,4 @@
+kelompok_dice,jumlah_citra,citra_GT_kosong,total_GT_pixels,retained_GT_pixels,weak_discarded_GT_pixels,below_low_GT_pixels,retained_GT_percent,weak_discarded_GT_percent,below_low_GT_percent,mean_retained_percent,mean_weak_discarded_percent,mean_below_low_percent,mean_retained_FP,mean_strong_TP,mean_strong_FP
+SELURUH TESTING,150,4,4123633,2087230,122124,1914279,50.61628908295185,2.9615632622980756,46.42214765475007,43.1159542625781,4.411786078290831,52.47225965913107,10428.793333333333,7264.833333333333,1588.42
+SELURUH TESTING,0,0,0,0,0,0,,,,,,,,,
+SELURUH TESTING,0,0,0,0,0,0,,,,,,,,,
