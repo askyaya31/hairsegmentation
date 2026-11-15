@@ -99,7 +99,7 @@ Selanjutnya, 500 citra dibagi menjadi dua subset:
 
 Pembagian menggunakan stratified sampling dengan `random_state=42`. Lima citra eksplorasi yang telah ditentukan sebelumnya dimasukkan ke subset tuning.
 
-Hasil analisis dataset dan pembagian data disimpan dalam file CSV di direktori `results/`.
+Hasil analisis dataset dan pembagian data disimpan dalam direktori `results/01_dataset/`.
 
 ## 5. Konfigurasi Eksperimen
 
@@ -138,6 +138,8 @@ Selain evaluasi performa, dilakukan beberapa analisis lanjutan untuk memahami ka
 
 ## 8. Struktur Repository
 
+Repository disusun berdasarkan fungsi kode dan jenis hasil eksperimen.
+
 ```text
 HairSegmentation/
 ├── dataset/
@@ -147,31 +149,59 @@ HairSegmentation/
 │   └── additional_materials/
 │
 ├── src/
-│   ├── black_tophat.py
-│   ├── analisis_dataset.py
-│   ├── split_dataset.py
-│   ├── tuning_parameter_kernel.py
-│   ├── evaluasi_kernel_terkontrol.py
-│   ├── uji_signifikansi_kernel_terkontrol.py
-│   ├── analisis_komponen_150_testing.py
-│   ├── analisis_retensi_komponen_150.py
-│   └── ...
+│   ├── core/
+│   ├── dataset/
+│   ├── pipeline/
+│   ├── analysis/
+│   ├── visualization/
+│   ├── validation/
+│   └── utilities/
 │
 ├── results/
-│   ├── analisis_dataset.csv
-│   ├── pembagian_dataset.csv
-│   ├── tuning_parameter_kernel/
-│   ├── evaluasi_kernel_terkontrol/
-│   ├── analisis_komponen_150_testing_gray_converted/
-│   ├── analisis_retensi_komponen_150/
-│   └── ...
+│   ├── 01_dataset/
+│   ├── 02_preprocessing/
+│   ├── 03_evaluation/
+│   ├── 04_tuning/
+│   ├── 05_component_analysis/
+│   ├── 06_error_analysis/
+│   ├── 07_statistical_analysis/
+│   ├── 08_visualizations/
+│   ├── 09_kernel_experiments/
+│   └── 09_validation/
 │
 ├── main.py
 ├── requirements.txt
 └── README.md
 ```
 
-Folder `dataset/` tidak disertakan dalam GitHub. File CSV hasil eksperimen dan analisis disertakan sebagai dokumentasi hasil penelitian.
+### Direktori `src/`
+
+Berisi seluruh script Python yang dikelompokkan berdasarkan fungsinya:
+
+- `core/`: Implementasi metode utama dan fungsi inti pengolahan citra.
+- `dataset/`: Analisis dan persiapan dataset.
+- `pipeline/`: Proses tuning dan evaluasi segmentasi.
+- `analysis/`: Analisis performa, komponen, korelasi, dan hasil eksperimen.
+- `visualization/`: Pembuatan visualisasi hasil.
+- `validation/`: Pemeriksaan konsistensi dan validasi hasil.
+- `utilities/`: Script pendukung dan utilitas proyek.
+
+### Direktori `results/`
+
+Menyimpan hasil eksperimen, analisis, dan visualisasi yang dikelompokkan berdasarkan jenisnya:
+
+- `01_dataset/`: Hasil analisis dan pembagian dataset.
+- `02_preprocessing/`: Hasil preprocessing Black Top-Hat.
+- `03_evaluation/`: Hasil evaluasi berbagai konfigurasi.
+- `04_tuning/`: Hasil parameter tuning.
+- `05_component_analysis/`: Analisis komponen dan retensi komponen.
+- `06_error_analysis/`: Analisis kesalahan segmentasi.
+- `07_statistical_analysis/`: Hasil analisis statistik.
+- `08_visualizations/`: Visualisasi dataset dan hasil eksperimen.
+- `09_kernel_experiments/`: Hasil eksperimen variasi kernel.
+- `09_validation/`: Hasil pemeriksaan dan validasi data.
+
+Folder `dataset/` tidak disertakan dalam GitHub. File hasil eksperimen dan analisis yang dipilih disertakan sebagai dokumentasi hasil penelitian.
 
 ## 9. Instalasi
 
@@ -196,44 +226,44 @@ Pastikan setiap citra memiliki mask dengan nama file yang sama.
 
 Seluruh perintah dijalankan dari direktori utama proyek.
 
+Karena script telah dikelompokkan ke dalam subpackage `src/`, jalankan script menggunakan format module Python (`python -m`).
+
 ### Tahap 1: Analisis dan Pembagian Dataset
 
 ```bash
-python src/analisis_dataset.py
-python src/split_dataset.py
+python -m src.dataset.analisis_dataset
+python -m src.dataset.split_dataset
 ```
 
 ### Tahap 2: Parameter Tuning
 
 ```bash
-python src/tuning_parameter_kernel.py
+python -m src.pipeline.tuning_parameter_kernel
 ```
 
 ### Tahap 3: Evaluasi pada Data Testing
 
 ```bash
-python src/evaluasi_kernel_terkontrol.py
+python -m src.pipeline.evaluasi_kernel_terkontrol
 ```
 
 ### Tahap 4: Uji Signifikansi Statistik
 
-```bash
-python src/uji_signifikansi_kernel_terkontrol.py
-```
+Jalankan script pengujian statistik sesuai kebutuhan dari direktori `src/analysis/`.
 
 ### Tahap 5: Analisis Komponen
 
 ```bash
-python src/analisis_komponen_150_testing.py
+python -m src.analysis.analisis_komponen_150_testing
 ```
 
 ### Tahap 6: Analisis Retensi Komponen
 
 ```bash
-python src/analisis_retensi_komponen_150.py
+python -m src.analysis.analisis_retensi_komponen_150
 ```
 
-Script analisis tambahan dan visualisasi tersedia di direktori `src/`. Jalankan setelah file masukan yang dibutuhkan tersedia.
+Script analisis tambahan, validasi, dan visualisasi tersedia pada subdirektori `src/` masing-masing. Jalankan setelah file masukan yang dibutuhkan tersedia.
 
 ## 11. Hasil Eksperimen
 
