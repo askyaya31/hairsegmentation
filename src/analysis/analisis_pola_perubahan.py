@@ -5,8 +5,8 @@ import numpy as np
 import pandas as pd
 
 ROOT_DIR = Path(__file__).resolve().parents[2]
-INPUT_FILE = ROOT_DIR / "results" / "analisis_kasus" / "analisis_seluruh_testing_detail.csv"
-OUTPUT_DIR = ROOT_DIR / "results" / "analisis_kasus"
+INPUT_FILE = ROOT_DIR / "results" / "06_error_analysis" / "analisis_kasus" / "analisis_seluruh_testing_detail.csv"
+OUTPUT_DIR = ROOT_DIR / "results" / "06_error_analysis" / "analisis_kasus"
 
 df = pd.read_csv(INPUT_FILE)
 

@@ -19,7 +19,7 @@ MASK_DIR = ROOT / "dataset" / "hair_mask"
 
 SPLIT_FILE = ROOT / "results" / "pembagian_dataset.csv"
 
-OUTPUT_DIR = ROOT / "results" / "evaluasi_kernel_terkontrol"
+OUTPUT_DIR = ROOT / "results" / "03_evaluation" / "kernel_terkontrol"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 

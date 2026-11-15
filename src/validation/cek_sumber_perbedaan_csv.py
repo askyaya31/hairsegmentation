@@ -18,17 +18,19 @@ MASK_DIR = ROOT / "dataset" / "hair_mask"
 
 COMPONENT_FILE = (
     ROOT / "results" /
-    "analisis_komponen_150_testing" /
+    "05_component_analysis" /
+    "komponen_150_testing" /
     "ringkasan_per_citra.csv"
 )
 
 EVALUATION_FILE = (
     ROOT / "results" /
-    "evaluasi_kernel_terkontrol" /
+    "03_evaluation" /
+    "kernel_terkontrol" /
     "hasil_detail.csv"
 )
 
-OUTPUT_DIR = ROOT / "results" / "cek_sumber_perbedaan_csv"
+OUTPUT_DIR = ROOT / "results" / "09_validation" / "sumber_perbedaan_csv"
 
 CONFIGS = {
     "B": {"kernel": 9, "low": 10, "high": 30},

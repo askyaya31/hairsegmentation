@@ -16,7 +16,7 @@ MASK_DIR = ROOT / "dataset" / "hair_mask"
 
 SPLIT_CSV = ROOT / "results" / "pembagian_dataset.csv"
 
-OUTPUT_DIR = ROOT / "results" / "evaluasi_hysteresis_tuning"
+OUTPUT_DIR = ROOT / "results" / "03_evaluation" / "hysteresis_tuning"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 KERNEL_LENGTH = 15

@@ -22,7 +22,8 @@ SPLIT_FILE = ROOT / "results" / "pembagian_dataset.csv"
 # Folder baru agar hasil lama tidak tertimpa.
 OUTPUT_DIR = (
     ROOT / "results" /
-    "analisis_komponen_150_testing_gray_converted"
+    "05_component_analysis" /
+    "komponen_150_gray"
 )
 
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)

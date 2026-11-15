@@ -4,10 +4,10 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 
 INPUT_FILE = (
-    ROOT / "results" / "evaluasi_testing" / "hasil_detail.csv"
+    ROOT / "results" / "03_evaluation" / "testing" / "hasil_detail.csv"
 )
 
-OUTPUT_DIR = ROOT / "results" / "analisis_kasus"
+OUTPUT_DIR = ROOT / "results" / "06_error_analysis" / "analisis_kasus"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 df = pd.read_csv(INPUT_FILE)

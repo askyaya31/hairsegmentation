@@ -16,9 +16,9 @@ ROOT = Path(__file__).resolve().parents[2]
 IMAGE_DIR = ROOT / "dataset" / "dermoscopic_image"
 MASK_DIR = ROOT / "dataset" / "hair_mask"
 
-CASE_FILE = ROOT / "results" / "analisis_kasus" / "10_kasus_terpilih.csv"
+CASE_FILE = ROOT / "results" / "06_error_analysis" / "analisis_kasus" / "10_kasus_terpilih.csv"
 
-OUTPUT_DIR = ROOT / "results" / "analisis_kasus" / "visualisasi"
+OUTPUT_DIR = ROOT / "results" / "06_error_analysis" / "analisis_kasus" / "visualisasi"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 KERNEL_LENGTH = 15

@@ -5,7 +5,7 @@ from pathlib import Path
 from scipy.stats import wilcoxon
 
 ROOT = Path(__file__).resolve().parents[2]
-INPUT_FILE = ROOT / "results" / "evaluasi_testing" / "hasil_detail.csv"
+INPUT_FILE = ROOT / "results" / "03_evaluation" / "testing" / "hasil_detail.csv"
 
 df = pd.read_csv(INPUT_FILE)
 

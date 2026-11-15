@@ -13,14 +13,16 @@ ROOT = Path(__file__).resolve().parents[2]
 
 COMPONENT_FILE = (
     ROOT / "results" /
-    "analisis_komponen_150_testing_gray_converted" /
+    "05_component_analysis" /
+    "komponen_150_gray" /
     "ringkasan_per_citra.csv"
 )
 
 EVALUATION_FILE = (
     ROOT
     / "results"
-    / "evaluasi_kernel_terkontrol"
+    / "03_evaluation"
+    / "kernel_terkontrol"
     / "hasil_detail.csv"
 )
 
@@ -184,7 +186,7 @@ def check_consistency(components, evaluation, config):
     comparison["selisih_fn"] = fn_diff
 
     output_dir = (
-        ROOT / "results" / "cek_konsistensi_csv"
+        ROOT / "results" / "09_validation" / "konsistensi_csv"
     )
 
     output_dir.mkdir(

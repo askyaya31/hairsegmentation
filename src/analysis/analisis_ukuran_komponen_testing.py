@@ -19,12 +19,12 @@ IMAGE_DIR = ROOT / "dataset" / "dermoscopic_image"
 MASK_DIR = ROOT / "dataset" / "hair_mask"
 
 RESULT_FILE = (
-    ROOT / "results" / "analisis_kasus"
+    ROOT / "results" / "06_error_analysis" / "analisis_kasus"
     / "analisis_seluruh_testing_detail.csv"
 )
 
 OUTPUT_DIR = (
-    ROOT / "results" / "analisis_kasus"
+    ROOT / "results" / "06_error_analysis" / "analisis_kasus"
     / "analisis_ukuran_komponen"
 )
 

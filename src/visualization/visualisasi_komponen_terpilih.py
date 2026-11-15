@@ -20,7 +20,8 @@ MASK_DIR = ROOT / "dataset" / "hair_mask"
 OUTPUT_DIR = (
     ROOT
     / "results"
-    / "visualisasi_komponen_terpilih"
+    / "08_visualizations"
+    / "komponen_terpilih"
 )
 
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)

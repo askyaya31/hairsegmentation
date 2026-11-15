@@ -31,12 +31,12 @@ from src.core.black_tophat import multi_directional_black_tophat
 ROOT = Path(__file__).resolve().parents[2]
 
 AUDIT_FILE = (
-    ROOT / "results" / "audit_dice_nol"
+    ROOT / "results" / "06_error_analysis" / "audit_dice_nol"
     / "hasil_audit_dice_nol.csv"
 )
 
 OUTPUT_DIR = (
-    ROOT / "results" / "visualisasi_audit_dice_nol"
+    ROOT / "results" / "08_visualizations" / "audit_dice_nol"
 )
 
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)

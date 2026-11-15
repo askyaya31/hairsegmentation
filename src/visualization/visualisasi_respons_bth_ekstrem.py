@@ -24,11 +24,12 @@ MASK_DIR = ROOT / "dataset" / "hair_mask"
 CSV_PATH = (
     ROOT
     / "results"
-    / "evaluasi_kernel_terkontrol"
+    / "03_evaluation"
+    / "kernel_terkontrol"
     / "hasil_detail.csv"
 )
 
-OUTPUT_DIR = ROOT / "results" / "visualisasi_respons_bth_ekstrem"
+OUTPUT_DIR = ROOT / "results" / "08_visualizations" / "respons_bth_ekstrem"
 
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 

@@ -13,10 +13,10 @@ ROOT = Path(__file__).resolve().parents[2]
 
 SPLIT_FILE = ROOT / "results" / "pembagian_dataset.csv"
 DETAIL_FILE = (
-    ROOT / "results" / "evaluasi_final_testing" / "hasil_detail.csv"
+    ROOT / "results" / "03_evaluation" / "final_testing" / "hasil_detail.csv"
 )
 
-OUTPUT_DIR = ROOT / "results" / "analisis_per_kategori"
+OUTPUT_DIR = ROOT / "results" / "06_error_analysis" / "per_kategori"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 OUTPUT_DETAIL = OUTPUT_DIR / "hasil_detail_per_kategori.csv"
@@ -206,10 +206,10 @@ ROOT = Path(__file__).resolve().parents[2]
 
 SPLIT_FILE = ROOT / "results" / "pembagian_dataset.csv"
 DETAIL_FILE = (
-    ROOT / "results" / "evaluasi_final_testing" / "hasil_detail.csv"
+    ROOT / "results" / "03_evaluation" / "final_testing" / "hasil_detail.csv"
 )
 
-OUTPUT_DIR = ROOT / "results" / "analisis_per_kategori"
+OUTPUT_DIR = ROOT / "results" / "06_error_analysis" / "per_kategori"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 OUTPUT_DETAIL = OUTPUT_DIR / "hasil_detail_per_kategori.csv"

@@ -2,8 +2,8 @@
 import pandas as pd
 import numpy as np
 
-INPUT = "results/pemeriksaan_korelasi_150/hasil_leave_one_out.csv"
-OUTPUT = "results/pemeriksaan_korelasi_150/ringkasan_loo_holm.csv"
+INPUT = "results/07_statistical_analysis/korelasi_150/hasil_leave_one_out.csv"
+OUTPUT = "results/07_statistical_analysis/korelasi_150/ringkasan_loo_holm.csv"
 
 
 def holm_correction(p_values):

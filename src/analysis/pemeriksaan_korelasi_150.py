@@ -21,14 +21,14 @@ BASE_DIR = os.path.dirname(
 INPUT_FILE = os.path.join(
     BASE_DIR,
     "results",
-    "analisis_retensi_komponen_150",
+    "05_component_analysis/retensi_150",
     "data_gabungan_150_citra.csv"
 )
 
 OUTPUT_DIR = os.path.join(
     BASE_DIR,
     "results",
-    "pemeriksaan_korelasi_150"
+    "07_statistical_analysis/korelasi_150"
 )
 
 PLOT_DIR = os.path.join(

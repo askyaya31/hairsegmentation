@@ -9,7 +9,7 @@ from pathlib import Path
 # Lokasi dataset dan hasil
 ROOT = Path(__file__).resolve().parents[2]
 IMAGE_DIR = ROOT / "dataset" / "dermoscopic_image"
-OUTPUT_DIR = ROOT / "results" / "black_tophat"
+OUTPUT_DIR = ROOT / "results" / "02_preprocessing" / "black_tophat"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 

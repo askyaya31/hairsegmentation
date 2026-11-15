@@ -7,11 +7,11 @@ import pandas as pd
 # ============================================================
 
 INPUT_FILE = (
-    "results/evaluasi_kernel_terkontrol/hasil_detail.csv"
+    "results/03_evaluation/kernel_terkontrol/hasil_detail.csv"
 )
 
 OUTPUT_DIR = (
-    "results/analisis_per_kategori_kernel_terkontrol"
+    "results/06_error_analysis/per_kategori_kernel"
 )
 
 METRICS = ["precision", "recall", "dice", "iou"]

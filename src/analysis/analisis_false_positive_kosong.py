@@ -7,7 +7,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 
-INPUT_FILE = ROOT / "results" / "evaluasi_kernel_terkontrol" / "hasil_detail.csv"
+INPUT_FILE = ROOT / "results" / "03_evaluation" / "kernel_terkontrol" / "hasil_detail.csv"
 OUTPUT_DIR = ROOT / "results" / "analisis_false_positive_kosong"
 
 IMAGE_PIXELS = 512 * 512

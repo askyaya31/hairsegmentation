@@ -20,7 +20,7 @@ ROOT = Path(__file__).resolve().parents[2]
 IMAGE_DIR = ROOT / "dataset" / "dermoscopic_image"
 MASK_DIR = ROOT / "dataset" / "hair_mask"
 
-OUTPUT_DIR = ROOT / "results" / "visualisasi_hasil_akhir_hysteresis"
+OUTPUT_DIR = ROOT / "results" / "08_visualizations" / "hasil_akhir_hysteresis"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 

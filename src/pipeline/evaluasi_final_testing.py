@@ -18,7 +18,7 @@ IMAGE_DIR = ROOT / "dataset" / "dermoscopic_image"
 MASK_DIR = ROOT / "dataset" / "hair_mask"
 SPLIT_FILE = ROOT / "results" / "pembagian_dataset.csv"
 
-OUTPUT_DIR = ROOT / "results" / "evaluasi_final_testing"
+OUTPUT_DIR = ROOT / "results" / "03_evaluation" / "final_testing"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 # Parameter hasil tuning

@@ -6,7 +6,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 
 RESULT_FILE = (
-    ROOT / "results" / "evaluasi_final_testing" / "hasil_detail.csv"
+    ROOT / "results" / "03_evaluation" / "final_testing" / "hasil_detail.csv"
 )
 
 N_BOOTSTRAP = 20_000
@@ -117,7 +117,7 @@ def main():
         print("Peningkatan Dice belum dapat dipastikan berdasarkan CI ini.")
 
     # Simpan hasil
-    output_dir = ROOT / "results" / "evaluasi_final_testing"
+    output_dir = ROOT / "results" / "03_evaluation" / "final_testing"
     output_dir.mkdir(parents=True, exist_ok=True)
 
     summary = pd.DataFrame([{

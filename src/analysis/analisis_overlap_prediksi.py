@@ -21,7 +21,7 @@ ROOT = Path(__file__).resolve().parents[2]
 
 SPLIT_FILE = ROOT / "results" / "pembagian_dataset.csv"
 
-OUTPUT_DIR = ROOT / "results" / "analisis_overlap_prediksi"
+OUTPUT_DIR = ROOT / "results" / "06_error_analysis" / "overlap_prediksi"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 OUTPUT_FILE = OUTPUT_DIR / "hasil_overlap_prediksi.csv"

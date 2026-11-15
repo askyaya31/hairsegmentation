@@ -19,10 +19,10 @@ MASK_DIR = ROOT / "dataset" / "hair_mask"
 
 SPLIT_FILE = ROOT / "results" / "pembagian_dataset.csv"
 DETAIL_FILE = (
-    ROOT / "results" / "evaluasi_final_testing" / "hasil_detail.csv"
+    ROOT / "results" / "03_evaluation" / "final_testing" / "hasil_detail.csv"
 )
 
-OUTPUT_DIR = ROOT / "results" / "audit_dice_nol"
+OUTPUT_DIR = ROOT / "results" / "06_error_analysis" / "audit_dice_nol"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 OUTPUT_FILE = OUTPUT_DIR / "hasil_audit_dice_nol.csv"

@@ -13,19 +13,22 @@ ROOT = Path(__file__).resolve().parents[2]
 
 EVAL_FILE = (
     ROOT / "results" /
-    "evaluasi_kernel_terkontrol" /
+    "03_evaluation" /
+    "kernel_terkontrol" /
     "hasil_detail.csv"
 )
 
 COMPONENT_FILE = (
     ROOT / "results" /
-    "analisis_komponen_150_testing_gray_converted" /
+    "05_component_analysis" /
+    "komponen_150_gray" /
     "detail_per_komponen.csv"
 )
 
 COMPONENT_SUMMARY_FILE = (
     ROOT / "results" /
-    "analisis_komponen_150_testing_gray_converted" /
+    "05_component_analysis" /
+    "komponen_150_gray" /
     "ringkasan_per_citra.csv"
 )
 

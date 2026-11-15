@@ -14,9 +14,9 @@ IMAGE_DIR = ROOT / "dataset" / "dermoscopic_image"
 MASK_DIR = ROOT / "dataset" / "hair_mask"
 
 SPLIT_CSV = ROOT / "results" / "pembagian_dataset.csv"
-OLD_RESULT = ROOT / "results" / "evaluasi_testing" / "hasil_detail.csv"
+OLD_RESULT = ROOT / "results" / "03_evaluation" / "testing" / "hasil_detail.csv"
 
-OUTPUT_DIR = ROOT / "results" / "analisis_kasus"
+OUTPUT_DIR = ROOT / "results" / "06_error_analysis" / "analisis_kasus"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 KERNEL_LENGTH = 15

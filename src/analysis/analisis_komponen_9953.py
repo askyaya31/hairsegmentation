@@ -8,7 +8,7 @@ ROOT = Path(__file__).resolve().parents[2]
 IMAGE_DIR = ROOT / "dataset" / "dermoscopic_image"
 MASK_DIR = ROOT / "dataset" / "hair_mask"
 
-OUTPUT_DIR = ROOT / "results" / "analisis_kasus" / "komponen_9953"
+OUTPUT_DIR = ROOT / "results" / "06_error_analysis" / "analisis_kasus" / "komponen_9953"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 IMAGE_ID = "ISIC_0009953"

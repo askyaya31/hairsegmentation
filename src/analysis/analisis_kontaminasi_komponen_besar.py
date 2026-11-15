@@ -13,18 +13,18 @@ from scipy.stats import spearmanr
 ROOT = Path(__file__).resolve().parents[2]
 
 COMPONENT_FILE = (
-    ROOT / "results" / "analisis_kasus"
+    ROOT / "results" / "06_error_analysis" / "analisis_kasus"
     / "analisis_ukuran_komponen"
     / "detail_seluruh_komponen.csv"
 )
 
 IMAGE_FILE = (
-    ROOT / "results" / "analisis_kasus"
+    ROOT / "results" / "06_error_analysis" / "analisis_kasus"
     / "analisis_seluruh_testing_detail.csv"
 )
 
 OUTPUT_DIR = (
-    ROOT / "results" / "analisis_kasus"
+    ROOT / "results" / "06_error_analysis" / "analisis_kasus"
     / "analisis_kontaminasi_komponen_besar"
 )
 

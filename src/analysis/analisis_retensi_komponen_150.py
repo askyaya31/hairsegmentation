@@ -8,26 +8,26 @@ from scipy.stats import spearmanr
 # KONFIGURASI
 # ============================================================
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 EVALUATION_FILE = os.path.join(
     BASE_DIR,
     "results",
-    "evaluasi_kernel_terkontrol",
+    "03_evaluation/kernel_terkontrol",
     "hasil_detail.csv"
 )
 
 COMPONENT_FILE = os.path.join(
     BASE_DIR,
     "results",
-    "analisis_komponen_150_testing_gray_converted",
+    "05_component_analysis/komponen_150_gray",
     "detail_per_komponen.csv"
 )
 
 OUTPUT_DIR = os.path.join(
     BASE_DIR,
     "results",
-    "analisis_retensi_komponen_150"
+    "05_component_analysis/retensi_150"
 )
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)

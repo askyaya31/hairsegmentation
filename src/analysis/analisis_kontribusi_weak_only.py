@@ -6,7 +6,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 
 INPUT_FILE = (
-    ROOT / "results" / "analisis_kasus"
+    ROOT / "results" / "06_error_analysis" / "analisis_kasus"
     / "analisis_weak_strong_testing"
     / "detail_weak_strong_150.csv"
 )

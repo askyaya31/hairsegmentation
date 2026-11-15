@@ -15,10 +15,10 @@ from scipy.stats import spearmanr
 
 ROOT = Path(__file__).resolve().parents[2]
 
-INPUT_DIR = ROOT / "results" / "analisis_komponen_ground_truth"
+INPUT_DIR = ROOT / "results" / "05_component_analysis" / "ground_truth"
 INPUT_FILE = INPUT_DIR / "detail_per_komponen.csv"
 
-OUTPUT_DIR = ROOT / "results" / "analisis_seluruh_komponen"
+OUTPUT_DIR = ROOT / "results" / "05_component_analysis" / "seluruh_komponen"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 

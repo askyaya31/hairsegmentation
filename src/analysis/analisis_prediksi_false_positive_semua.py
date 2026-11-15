@@ -9,11 +9,11 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 
 INPUT_FILE = (
-    ROOT / "results" / "evaluasi_kernel_terkontrol" / "hasil_detail.csv"
+    ROOT / "results" / "03_evaluation" / "kernel_terkontrol" / "hasil_detail.csv"
 )
 
 OUTPUT_DIR = (
-    ROOT / "results" / "analisis_prediksi_false_positive_semua"
+    ROOT / "results" / "06_error_analysis" / "false_positive"
 )
 
 IMAGE_PIXELS = 512 * 512

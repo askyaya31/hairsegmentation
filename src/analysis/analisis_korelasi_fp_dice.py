@@ -8,11 +8,11 @@ from scipy.stats import spearmanr, pearsonr
 ROOT = Path(__file__).resolve().parents[2]
 
 INPUT_FILE = (
-    ROOT / "results" / "evaluasi_kernel_terkontrol" / "hasil_detail.csv"
+    ROOT / "results" / "03_evaluation" / "kernel_terkontrol" / "hasil_detail.csv"
 )
 
 OUTPUT_DIR = (
-    ROOT / "results" / "analisis_korelasi_fp_dice"
+    ROOT / "results" / "06_error_analysis" / "korelasi_fp_dice"
 )
 
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)

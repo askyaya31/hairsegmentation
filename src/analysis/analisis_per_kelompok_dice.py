@@ -6,8 +6,8 @@ import pandas as pd
 
 # Lokasi file
 ROOT_DIR = Path(__file__).resolve().parents[2]
-INPUT_FILE = ROOT_DIR / "results" / "analisis_kasus" / "analisis_seluruh_testing_detail.csv"
-OUTPUT_DIR = ROOT_DIR / "results" / "analisis_kasus"
+INPUT_FILE = ROOT_DIR / "results" / "06_error_analysis" / "analisis_kasus" / "analisis_seluruh_testing_detail.csv"
+OUTPUT_DIR = ROOT_DIR / "results" / "06_error_analysis" / "analisis_kasus"
 
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 

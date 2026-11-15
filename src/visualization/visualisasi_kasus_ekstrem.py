@@ -14,11 +14,12 @@ MASK_DIR = ROOT / "dataset" / "hair_mask"
 
 INPUT_FILE = (
     ROOT / "results"
-    / "evaluasi_kernel_terkontrol"
+    / "03_evaluation"
+    / "kernel_terkontrol"
     / "hasil_detail.csv"
 )
 
-OUTPUT_DIR = ROOT / "results" / "visualisasi_kasus_ekstrem"
+OUTPUT_DIR = ROOT / "results" / "08_visualizations" / "kasus_ekstrem"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 

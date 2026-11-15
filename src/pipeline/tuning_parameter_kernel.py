@@ -17,7 +17,7 @@ IMAGE_DIR = ROOT / "dataset" / "dermoscopic_image"
 MASK_DIR = ROOT / "dataset" / "hair_mask"
 SPLIT_FILE = ROOT / "results" / "pembagian_dataset.csv"
 
-OUTPUT_DIR = ROOT / "results" / "tuning_parameter_kernel"
+OUTPUT_DIR = ROOT / "results" / "04_tuning" / "parameter_kernel"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 KERNEL_LENGTHS = [9, 11, 13, 15, 17, 19, 21]

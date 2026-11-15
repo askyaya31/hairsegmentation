@@ -22,12 +22,12 @@ IMAGE_DIR = ROOT / "dataset" / "dermoscopic_image"
 MASK_DIR = ROOT / "dataset" / "hair_mask"
 
 DETAIL_FILE = (
-    ROOT / "results" / "evaluasi_kernel_terkontrol"
+    ROOT / "results" / "03_evaluation" / "kernel_terkontrol"
     / "hasil_detail.csv"
 )
 
 OUTPUT_DIR = (
-    ROOT / "results" / "visualisasi_empat_konfigurasi"
+    ROOT / "results" / "08_visualizations" / "empat_konfigurasi"
 )
 
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)

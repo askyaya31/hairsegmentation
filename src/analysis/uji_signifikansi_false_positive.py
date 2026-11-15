@@ -8,11 +8,11 @@ from scipy.stats import wilcoxon, rankdata
 ROOT = Path(__file__).resolve().parents[2]
 
 INPUT_FILE = (
-    ROOT / "results" / "evaluasi_kernel_terkontrol" / "hasil_detail.csv"
+    ROOT / "results" / "03_evaluation" / "kernel_terkontrol" / "hasil_detail.csv"
 )
 
 OUTPUT_DIR = (
-    ROOT / "results" / "uji_signifikansi_false_positive"
+    ROOT / "results" / "07_statistical_analysis" / "false_positive"
 )
 
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)

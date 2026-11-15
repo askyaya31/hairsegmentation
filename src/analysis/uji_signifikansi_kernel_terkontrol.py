@@ -15,14 +15,16 @@ ROOT = Path(__file__).resolve().parents[2]
 INPUT_FILE = (
     ROOT
     / "results"
-    / "evaluasi_kernel_terkontrol"
+    / "03_evaluation"
+    / "kernel_terkontrol"
     / "hasil_detail.csv"
 )
 
 OUTPUT_DIR = (
     ROOT
     / "results"
-    / "evaluasi_kernel_terkontrol"
+    / "03_evaluation"
+    / "kernel_terkontrol"
 )
 
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)

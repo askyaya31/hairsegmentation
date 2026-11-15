@@ -7,7 +7,7 @@ from scipy.stats import wilcoxon
 ROOT = Path(__file__).resolve().parents[2]
 
 RESULT_FILE = (
-    ROOT / "results" / "evaluasi_final_testing" / "hasil_detail.csv"
+    ROOT / "results" / "03_evaluation" / "final_testing" / "hasil_detail.csv"
 )
 
 
